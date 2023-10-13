@@ -3,5 +3,5 @@
 2) Writing to a Text File in HDFS
 
 ## Screenshots
-![Image](screenes/01.png)
-![Image](screenes/02.png)
+![Image](screenes/1.png)
+![Image](screenes/2.png)
