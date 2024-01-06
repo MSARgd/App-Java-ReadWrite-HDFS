@@ -21,7 +21,7 @@ public class AppWrite {
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(outputStream, StandardCharsets.UTF_8));
             for (int i = 0; i < 10; i++) {
                 writer.write(UUID.randomUUID().toString().substring(0, 30));
-                writer.newLine();  // Write a new line after each UUID
+                writer.newLine();
             }
             writer.close();
             outputStream.close();
